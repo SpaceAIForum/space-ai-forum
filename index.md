@@ -15,9 +15,15 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 </script>
 
-[Home](/space-ai-forum/) • [CFP](#call-for-papers) • [Author kit](#author-kit) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Schedule](#tentative-schedule-gmt) • [Reviewers](#call-for-reviewers) • [Support](#supporters) • [Policies](#policies) • [Contact](#contact)
+<nav class="topnav">
+[CFP](#call-for-papers) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Reviewers](#call-for-reviewers) • [Contact](#contact)
+</nav>
 
-Online workshop on AI for space
+<style>
+.topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.5rem 0;border-bottom:1px solid #eaeaea}
+.topnav a{margin:0 .35rem}
+@media (max-width:640px){.topnav a{display:inline-block;margin:.2rem .45rem}}
+</style>
 
 ## Overview
 Space AI Forum gathers researchers and practitioners working on AI for satellites, planetary robotics, ground and flight segments, mission operations, and science data systems. The focus is practical exchange across algorithms, hardware, safety, and deployment.
@@ -114,7 +120,9 @@ Conflicts: Reviewers must recuse themselves from papers with conflicts such as s
 Email research@sylvesterkaczmarek.com  
 Website https://spaceaiforum.github.io/space-ai-forum
 
-<footer style="text-align:center;margin:32px 0 8px;opacity:.8">
-  <img src="{{ '/space_ai_forum_logo.jpg' | relative_url }}" alt="Space AI Forum logo" style="height:28px;vertical-align:middle;margin-right:8px">
-  <span>Space AI Forum</span>
-</footer>
+<footer class="saf-footer"><img class="saf-logo" src="{{ '/space_ai_forum_logo.jpg' | relative_url }}" alt="Space AI Forum logo"></footer>
+<style>
+.saf-footer{text-align:center;margin:32px 0 12px}
+.saf-logo{height:72px;max-width:90vw;vertical-align:middle;filter:drop-shadow(0 1px 0 rgba(0,0,0,.12))}
+@media (min-width:900px){.saf-logo{height:88px}}
+</style>
