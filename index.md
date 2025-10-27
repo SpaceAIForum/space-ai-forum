@@ -4,7 +4,7 @@ title: Space AI Forum 2026
 
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
-[Home](/space-ai-forum/) • [CFP](#call-for-papers) • [Author kit](#author-kit) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Schedule](#tentative-schedule-gmt) • [Reviewers](#call-for-reviewers) • [Support](#supporters) • [Policies](#policies) • [Contact](#contact)
+[Home](/space-ai-forum/) • [CFP](#call-for-papers) • [CFP PDF]({{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}) • [Author kit](#author-kit) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Schedule](#tentative-schedule-gmt) • [Reviewers](#call-for-reviewers) • [Support](#supporters) • [Policies](#policies) • [Contact](#contact)
 
 Online workshop on AI for space
 
@@ -47,6 +47,7 @@ We welcome short papers reporting research, negative results with lessons, syste
 
 ## Submission
 - Use a clear format. No template required  
+- Download the 1-page CFP (PDF): [Space_AI_Forum_2026_CFP.pdf]({{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }})  
 - Submit on OpenReview: **[link will be added here]**  
 - After acceptance, upload a camera-ready with author names. Authors are encouraged to post to arXiv and add the link on the OpenReview record
 
