@@ -1,10 +1,8 @@
 ---
-title: Space AI Forum 2026
+title: Home
 ---
 
 [Home](/space-ai-forum/) • [CFP](#call-for-papers) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Policies](#policies) • [Contact](#contact)
-
-# Space AI Forum 2026
 
 Remote workshop on AI for space systems and operations
 
