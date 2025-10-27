@@ -1,6 +1,8 @@
 ---
-title: Home
+title: Space AI Forum 2026
 ---
+
+<link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
 [Home](/space-ai-forum/) • [CFP](#call-for-papers) • [Author kit](#author-kit) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Schedule](#tentative-schedule-gmt) • [Reviewers](#call-for-reviewers) • [Support](#supporters) • [Policies](#policies) • [Contact](#contact)
 
