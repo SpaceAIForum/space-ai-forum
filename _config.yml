@@ -1,5 +1,4 @@
 title: Space AI Forum
 description: Online workshop on AI for space
 theme: jekyll-theme-cayman
-url: https://spaceaiforum.sylvesterkaczmarek.com
-baseurl: ""
+baseurl: "space-ai-forum"
