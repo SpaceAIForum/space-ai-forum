@@ -5,17 +5,17 @@ title: Space AI Forum 2026
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function(){
   const b = document.querySelector('.page-header .btn');
   if (!b) return;
-  b.textContent = 'CFP PDF';
+  b.textContent = 'Call for Papers';
   b.href = '{{ "/Space_AI_Forum_2026_CFP.pdf" | relative_url }}';
   b.target = '_blank';
   b.rel = 'noopener';
 });
 </script>
 
-[Home](/space-ai-forum/) • [CFP](#call-for-papers) • <a href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}" target="_blank" rel="noopener">CFP PDF</a> • [Author kit](#author-kit) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Schedule](#tentative-schedule-gmt) • [Reviewers](#call-for-reviewers) • [Support](#supporters) • [Policies](#policies) • [Contact](#contact)
+[Home](/space-ai-forum/) • [CFP](#call-for-papers) • [Author kit](#author-kit) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Schedule](#tentative-schedule-gmt) • [Reviewers](#call-for-reviewers) • [Support](#supporters) • [Policies](#policies) • [Contact](#contact)
 
 Online workshop on AI for space
 
@@ -113,3 +113,8 @@ Conflicts: Reviewers must recuse themselves from papers with conflicts such as s
 ## Contact
 Email research@sylvesterkaczmarek.com  
 Website https://spaceaiforum.github.io/space-ai-forum
+
+<footer style="text-align:center;margin:32px 0 8px;opacity:.8">
+  <img src="{{ '/space_ai_forum_logo.jpg' | relative_url }}" alt="Space AI Forum logo" style="height:28px;vertical-align:middle;margin-right:8px">
+  <span>Space AI Forum</span>
+</footer>
