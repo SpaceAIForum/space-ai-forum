@@ -15,9 +15,14 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 </script>
 
-<nav class="topnav">
-[Home](/space-ai-forum/) • [CFP](#call-for-papers) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Reviewers](#call-for-reviewers) • [Contact](#contact)
+<nav class="topnav" markdown="1">
+[CFP](#call-for-papers) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Reviewers](#call-for-reviewers) • [Contact](#contact)
 </nav>
+<style>
+.topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.5rem 0;border-bottom:1px solid #eaeaea}
+.topnav a{margin:0 .35rem}
+@media (max-width:640px){.topnav a{display:inline-block;margin:.2rem .45rem}}
+</style>
 
 <style>
 .topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.5rem 0;border-bottom:1px solid #eaeaea}
