@@ -4,6 +4,17 @@ title: Space AI Forum 2026
 
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const b = document.querySelector('.page-header .btn');
+  if (!b) return;
+  b.textContent = 'CFP PDF';
+  b.href = '{{ "/Space_AI_Forum_2026_CFP.pdf" | relative_url }}';
+  b.target = '_blank';
+  b.rel = 'noopener';
+});
+</script>
+
 [Home](/space-ai-forum/) • [CFP](#call-for-papers) • <a href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}" target="_blank" rel="noopener">CFP PDF</a> • [Author kit](#author-kit) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Schedule](#tentative-schedule-gmt) • [Reviewers](#call-for-reviewers) • [Support](#supporters) • [Policies](#policies) • [Contact](#contact)
 
 Online workshop on AI for space
