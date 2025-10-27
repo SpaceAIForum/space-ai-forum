@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function(){
 </script>
 
 <nav class="topnav">
-[CFP](#call-for-papers) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Reviewers](#call-for-reviewers) • [Contact](#contact)
+[Home](/space-ai-forum/) • [CFP](#call-for-papers) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Reviewers](#call-for-reviewers) • [Contact](#contact)
 </nav>
 
 <style>
