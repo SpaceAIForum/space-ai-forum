@@ -1,5 +1,6 @@
 ---
 title: Space AI Forum 2026
+subtitle: Workshop@SAIF26
 ---
 
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
@@ -18,11 +19,9 @@ document.addEventListener('DOMContentLoaded', function(){
 <nav class="topnav" markdown="1">
 [CFP](#call-for-papers) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Reviewers](#call-for-reviewers) • [Contact](#contact)
 </nav>
-<style>
-.topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.5rem 0;border-bottom:1px solid #eaeaea}
-.topnav a{margin:0 .35rem}
-@media (max-width:640px){.topnav a{display:inline-block;margin:.2rem .45rem}}
-</style>
+
+{% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+<style>.page-subtitle{margin:.35rem 0 .5rem;text-align:center;font-size:1.05rem;color:#555}</style>
 
 <style>
 .topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.5rem 0;border-bottom:1px solid #eaeaea}
