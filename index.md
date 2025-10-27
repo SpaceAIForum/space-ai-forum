@@ -24,7 +24,8 @@ We welcome short papers reporting research, negative results with lessons, syste
 - Communications, compression, and federated methods  
 - LLMs and agents for ops and ground tools  
 - Data pipelines from lab to orbit and surface  
-- Science applications such as EO analytics, planetary science pipelines, mission science planning, and data assimilation  
+- Science applications in EO and planetary pipelines
+- Mission science planning and data assimilation
 - Ethics, safety, policy, and standards for AI in space
 
 ## Author kit
