@@ -63,9 +63,7 @@ We welcome short papers reporting research, negative results with lessons, syste
 - Event 14 Mar 2026
 
 ## Submission
-- Template: download the author package (ZIP): <a href="{{ '/SpaceAIForum-Template-v1.zip' | relative_url }}" target="_blank" rel="noopener">SpaceAIForum-Template-v1.zip</a> or <a href="https://www.overleaf.com/template/spaceaiforum" target="_blank" rel="noopener">clone the Overleaf template</a> **[links will be added soon]**
-
-- Template: <a href="{{ '/SpaceAIForum-Template-v1.zip' | relative_url }}" target="_blank" rel="noopener">download the SpaceAIForum author package (ZIP)</a> or <a href="https://www.overleaf.com/template/spaceaiforum" target="_blank" rel="noopener">clone the Overleaf template</a> **[links will be added soon]**
+- SpaceAIForum Template: <a href="{{ '/SpaceAIForum-Template-v1.zip' | relative_url }}" target="_blank" rel="noopener">download the author package (ZIP)</a> or <a href="https://www.overleaf.com/template/spaceaiforum" target="_blank" rel="noopener">clone the Overleaf template</a> **[links will be added soon]**
 - Download the 1-page CFP (PDF): <a href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}" target="_blank" rel="noopener">Space_AI_Forum_2026_CFP.pdf</a>
 - Submit on OpenReview: **[link will be added here]**
 - After acceptance, upload a camera-ready with author names. Authors are encouraged to post to arXiv and add the link on the OpenReview record
