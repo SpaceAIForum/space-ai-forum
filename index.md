@@ -127,8 +127,7 @@ We welcome short papers reporting research, negative results with lessons, syste
 ## Submission
 - Space AI Forum Template: <a href="{{ '/SpaceAIForum-Template-v1.zip' | relative_url }}" target="_blank" rel="noopener">download the author package (ZIP)</a> or <a href="https://www.overleaf.com/template/spaceaiforum" target="_blank" rel="noopener">clone the Overleaf template</a> **[links will be added soon]**
 - Download the 1-page CFP (PDF): <a href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}" target="_blank" rel="noopener">Space_AI_Forum_2026_CFP.pdf</a>
-- Submit on OpenReview: <a href="https://openreview.net/group?id=SAF%2F2026%2FConference" target="_blank" rel="noopener">start your submission</a> or <a href="https://openreview.net/group?id=SAF%2F2026%2FConference#tab-recent-activity" target="_blank" rel="noopener">view recent activity</a>
-- Submit on OpenReview: **[link will be added here]** 
+- Submit on OpenReview: <a href="https://openreview.net/group?id=SAF%2F2026%2FConference" target="_blank" rel="noopener">start your submission</a>
 - After acceptance, upload a camera-ready with author names. Authors are encouraged to post to arXiv and add the link on the OpenReview record
 
 ## Program
