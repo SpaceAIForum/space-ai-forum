@@ -2,20 +2,6 @@
 title: Space AI Forum 2026
 ---
 
-<style>
-.page-header{
-  background:#000 !important;
-  background-image:none !important;
-  color:#fff;
-}
-.page-header .project-name,
-.page-header .project-tagline{color:#fff}
-.page-header .btn{
-  background:transparent;border:1px solid rgba(255,255,255,.9);color:#fff
-}
-.page-header .btn:hover{background:#fff;color:#000}
-</style>
-
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
 <script>
@@ -38,6 +24,38 @@ document.addEventListener('DOMContentLoaded', function(){
 .topnav a{margin:0 .35rem}
 @media (max-width:640px){.topnav a{display:inline-block;margin:.2rem .45rem}}
 </style>
+
+<style>
+.page-header{
+  background:#000 !important;
+  background-image:none !important;
+  color:#fff;
+}
+.page-header .project-name,
+.page-header .project-tagline{color:#fff}
+.page-header .btn{
+  background:transparent;border:1px solid rgba(255,255,255,.9);color:#fff
+}
+.page-header .btn:hover{background:#fff;color:#000}
+</style>
+
+<!-- Option B image header
+<style>
+/* Image header with dark overlay for readability */
+.page-header{
+  background:
+    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+    url("{{ '/space_ai_forum_hero.jpg' | relative_url }}") center/cover no-repeat !important;
+  color:#fff;
+}
+.page-header .project-name,
+.page-header .project-tagline{color:#fff}
+.page-header .btn{
+  background:transparent;border:1px solid rgba(255,255,255,.9);color:#fff
+}
+.page-header .btn:hover{background:#fff;color:#000}
+</style>
+-->
 
 ## Overview
 Space AI Forum gathers researchers and practitioners working on AI for satellites, planetary robotics, ground and flight segments, mission operations, and science data systems. The focus is practical exchange across algorithms, hardware, safety, and deployment.
@@ -73,13 +91,19 @@ Space AI Forum gathers researchers and practitioners working on AI for satellite
 
 ## Primer v2Google
 
-<iframe
-  class="saf-pdf"
-  src="https://docs.google.com/gview?embedded=1&url={{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | absolute_url | url_encode }}">
-</iframe>
+<div class="saf-pdf">
+  <object
+    data="{{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | relative_url }}#toolbar=0&navpanes=0&zoom=page-width"
+    type="application/pdf">
+    <p>Your browser can’t display this PDF.
+      <a href="{{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | relative_url }}" target="_blank" rel="noopener">Open the PDF</a>
+    </p>
+  </object>
+</div>
 
 <style>
-.saf-pdf{width:100%;height:80vh;min-height:560px;border:1px solid #eaeaea}
+.saf-pdf{height:80vh;min-height:560px;margin:12px 0}
+.saf-pdf object{width:100%;height:100%;display:block;border:1px solid #eaeaea}
 @media (max-width:700px){.saf-pdf{height:65vh;min-height:420px}}
 </style>
 
