@@ -30,8 +30,6 @@ Space AI Forum gathers researchers and practitioners working on AI for satellite
 
 ## Primer
 
-## Primer
-
 <div class="saf-pdf">
   <object
     data="{{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | relative_url }}"
