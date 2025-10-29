@@ -62,6 +62,12 @@ Minimum: 1920 × 720 px
 JPEG at 75–85% quality. Target ≤ 600 KB.
 -->
 
+<style>
+/* Section heading color */
+.main-content h2,
+.main-content h3 { color:#111827; }
+</style>
+
 ## Overview
 Space AI Forum gathers researchers and practitioners working on AI for satellites, planetary robotics, ground and flight segments, mission operations, and science data systems. The focus is practical exchange across algorithms, hardware, safety, and deployment.
 
