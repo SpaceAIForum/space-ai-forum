@@ -32,7 +32,7 @@ Space AI Forum gathers researchers and practitioners working on AI for satellite
 
 <!-- Inline PDF viewer -->
 <object
-  data="{{ '/SpaceAIForum.pdf' | relative_url }}"
+  data="{{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | relative_url }}"
   type="application/pdf"
   width="100%"
   height="100%">
