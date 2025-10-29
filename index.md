@@ -50,7 +50,7 @@ We welcome short papers reporting research, negative results with lessons, syste
 - Anonymity: double-blind. Remove names and affiliations
 - License: CC BY 4.0 for camera-ready files
 - Figures, tables, and links allowed
-- Supplementary: optional PDF or single ZIP
+- Supplementary: optional PDF or single ZIP, anonymized
 - Concurrent submissions: allowed only if the other venue permits. Disclose in the submission
 
 ## Important dates
@@ -63,9 +63,9 @@ We welcome short papers reporting research, negative results with lessons, syste
 - Event 14 Mar 2026
 
 ## Submission
-- Use a clear format. No template required  
-- Download the 1-page CFP (PDF): <a href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}" target="_blank" rel="noopener">Space_AI_Forum_2026_CFP.pdf</a>  
-- Submit on OpenReview: **[link will be added here]**  
+- Template: download the author package (ZIP): <a href="{{ '/SpaceAIForum-Template-v1.zip' | relative_url }}" target="_blank" rel="noopener">SpaceAIForum-Template-v1.zip</a> <!-- Note: Use a clear format. No template required -->
+- Download the 1-page CFP (PDF): <a href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}" target="_blank" rel="noopener">Space_AI_Forum_2026_CFP.pdf</a>
+- Submit on OpenReview: **[link will be added here]**
 - After acceptance, upload a camera-ready with author names. Authors are encouraged to post to arXiv and add the link on the OpenReview record
 
 ## Program
