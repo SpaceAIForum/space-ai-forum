@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function(){
   const b = document.querySelector('.page-header .btn');
   if (!b) return;
   b.textContent = 'Call for Papers';
-  b.href = 'https://openreview.net/group?id=SAF%2F2026%2FConference#tab-recent-activity';
+  b.href = 'https://openreview.net/group?id=SAF%2F2026%2FConference';
   b.target = '_blank';
   b.rel = 'noopener';
 });
