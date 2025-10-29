@@ -28,6 +28,21 @@ document.addEventListener('DOMContentLoaded', function(){
 ## Overview
 Space AI Forum gathers researchers and practitioners working on AI for satellites, planetary robotics, ground and flight segments, mission operations, and science data systems. The focus is practical exchange across algorithms, hardware, safety, and deployment.
 
+## Opening slides
+
+<!-- Inline PDF viewer -->
+<object
+  data="{{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | relative_url }}"
+  type="application/pdf"
+  width="100%"
+  height="80vh">
+  <p>Your browser can’t display this PDF.
+    <a href="{{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | relative_url }}" target="_blank" rel="noopener">
+      Open the PDF
+    </a>
+  </p>
+</object>
+
 ## Call for Papers
 We welcome short papers reporting research, negative results with lessons, systems notes, or position pieces.
 
