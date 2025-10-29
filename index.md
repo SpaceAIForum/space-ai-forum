@@ -62,35 +62,7 @@ Space AI Forum gathers researchers and practitioners working on AI for satellite
 
 ## Primer
 
-<div class="saf-pdf">
-  <object
-    data="{{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | relative_url }}"
-    type="application/pdf">
-    <p>Your browser can’t display this PDF.
-      <a href="{{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | relative_url }}" target="_blank" rel="noopener">Open the PDF</a>
-    </p>
-  </object>
-</div>
-
-<style>
-.saf-pdf{height:80vh;min-height:560px;margin:12px 0}
-.saf-pdf object{width:100%;height:100%;display:block;border:1px solid #eaeaea}
-@media (max-width:700px){.saf-pdf{height:65vh;min-height:420px}}
-</style>
-
-<!-- Inline PDF viewer
-<iframe
-  class="saf-pdf"
-  src="https://unpkg.com/pdfjs-dist@3.11.174/web/viewer.html?file={{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | relative_url | url_encode }}#pagemode=none&zoom=page-width">
-</iframe>
-
-<style>
-.saf-pdf{width:100%;height:80vh;min-height:560px;border:1px solid #eaeaea}
-@media (max-width:700px){.saf-pdf{height:65vh;min-height:420px}}
-</style> -->
-
-## Primer v2Google
-
+<!-- Inline PDF viewer -->
 <div class="saf-pdf">
   <object
     data="{{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | relative_url }}#toolbar=0&navpanes=0&zoom=page-width"
