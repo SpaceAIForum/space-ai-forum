@@ -55,6 +55,11 @@ document.addEventListener('DOMContentLoaded', function(){
 }
 .page-header .btn:hover{background:#fff;color:#000}
 </style>
+
+space_ai_forum_hero_3200x1200.jpg
+Good: 2560 × 960 px
+Minimum: 1920 × 720 px
+JPEG at 75–85% quality. Target ≤ 600 KB.
 -->
 
 ## Overview
@@ -83,15 +88,15 @@ Space AI Forum gathers researchers and practitioners working on AI for satellite
 We welcome short papers reporting research, negative results with lessons, systems notes, or position pieces.
 
 ### Topics
-- Autonomy for flight and surface assets  
-- On-board learning and inference on constrained hardware  
-- Sensing, perception, tracking, and navigation  
-- Verification, validation, testing, and runtime monitoring  
-- Robustness to faults, radiation, and anomalies  
-- Scheduling, planning, and resource management  
-- Communications, compression, and federated methods  
-- LLMs and agents for ops and ground tools  
-- Data pipelines from lab to orbit and surface  
+- Autonomy for flight and surface assets
+- On-board learning and inference on constrained hardware
+- Sensing, perception, tracking, and navigation
+- Verification, validation, testing, and runtime monitoring
+- Robustness to faults, radiation, and anomalies
+- Scheduling, planning, and resource management
+- Communications, compression, and federated methods
+- LLMs and agents for ops and ground tools
+- Data pipelines from lab to orbit and surface
 - Science applications in EO and planetary pipelines
 - Mission science planning and data assimilation
 - Ethics, safety, policy, and standards for AI in space
