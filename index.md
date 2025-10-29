@@ -65,7 +65,7 @@ JPEG at 75–85% quality. Target ≤ 600 KB.
 <style>
 /* Section heading color */
 .main-content h2,
-.main-content h3 { color:#111827; }
+.main-content h3 { color:#3d85c6; } 
 </style>
 
 ## Overview
