@@ -31,17 +31,17 @@ Space AI Forum gathers researchers and practitioners working on AI for satellite
 ## Opening slides
 
 <!-- Inline PDF viewer -->
-<object
-  data="{{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | relative_url }}"
-  type="application/pdf"
-  width="100%"
-  height="80vh">
-  <p>Your browser can’t display this PDF.
-    <a href="{{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | relative_url }}" target="_blank" rel="noopener">
-      Open the PDF
-    </a>
-  </p>
-</object>
+<div style="height:80vh; min-height:560px;">
+  <object
+    data="{{ '/SpaceAIForum.pdf' | relative_url }}"
+    type="application/pdf"
+    width="100%"
+    height="100%">
+    <p>Your browser can’t display this PDF.
+      <a href="{{ '/SpaceAIForum.pdf' | relative_url }}" target="_blank" rel="noopener">Open the PDF</a>
+    </p>
+  </object>
+</div>
 
 ## Call for Papers
 We welcome short papers reporting research, negative results with lessons, systems notes, or position pieces.
