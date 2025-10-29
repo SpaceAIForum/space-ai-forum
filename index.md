@@ -57,6 +57,18 @@ Space AI Forum gathers researchers and practitioners working on AI for satellite
 @media (max-width:700px){.saf-pdf{height:65vh;min-height:420px}}
 </style> -->
 
+## Primer v2Google
+
+<iframe
+  class="saf-pdf"
+  src="https://docs.google.com/gview?embedded=1&url={{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | absolute_url | url_encode }}">
+</iframe>
+
+<style>
+.saf-pdf{width:100%;height:80vh;min-height:560px;border:1px solid #eaeaea}
+@media (max-width:700px){.saf-pdf{height:65vh;min-height:420px}}
+</style>
+
 ## Call for Papers
 We welcome short papers reporting research, negative results with lessons, systems notes, or position pieces.
 
