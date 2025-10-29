@@ -2,6 +2,20 @@
 title: Space AI Forum 2026
 ---
 
+<style>
+.page-header{
+  background:#000 !important;
+  background-image:none !important;
+  color:#fff;
+}
+.page-header .project-name,
+.page-header .project-tagline{color:#fff}
+.page-header .btn{
+  background:transparent;border:1px solid rgba(255,255,255,.9);color:#fff
+}
+.page-header .btn:hover{background:#fff;color:#000}
+</style>
+
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
 <script>
