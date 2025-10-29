@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function(){
 .topnav a{margin:0 .35rem}
 @media (max-width:640px){.topnav a{display:inline-block;margin:.2rem .45rem}}
 </style>
-
+<!-- Option A black
 <style>
 .page-header{
   background:#000 !important;
@@ -37,9 +37,9 @@ document.addEventListener('DOMContentLoaded', function(){
   background:transparent;border:1px solid rgba(255,255,255,.9);color:#fff
 }
 .page-header .btn:hover{background:#fff;color:#000}
-</style>
+</style> -->
 
-<!-- Option B image header
+<!-- Option B image header -->
 <style>
 /* Image header with dark overlay for readability */
 .page-header{
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function(){
 }
 .page-header .btn:hover{background:#fff;color:#000}
 </style>
-
+<!-- 
 space_ai_forum_hero_3200x1200.jpg
 Good: 2560 × 960 px
 Minimum: 1920 × 720 px
