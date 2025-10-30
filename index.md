@@ -251,6 +251,35 @@ We welcome reviewers with expertise in space systems, robotics, autonomy, ML, an
 How to apply: email research@sylvesterkaczmarek.com with your homepage or Google Scholar and 3–5 keywords  
 Service window Feb–Mar 2026. Expected load 2–3 papers
 
+
+## Call for reviewers
+We welcome reviewers with expertise in space systems, robotics, autonomy, ML, and safety  
+How to apply: email research@sylvesterkaczmarek.com with your homepage or Google Scholar and 3–5 keywords  
+Or use the short form below to generate a prefilled email  
+Service window Feb–Mar 2026. Expected load 2–3 papers
+
+<form id="saf-reviewer-form" class="saf-form" onsubmit="return safReviewerMailto(event)">
+  <label>
+    Name<br>
+    <input type="text" id="safv-name" required>
+  </label><br>
+  <label>
+    Email (reply-to)<br>
+    <input type="email" id="safv-email" required>
+  </label><br>
+  <label>
+    Homepage or Google Scholar URL<br>
+    <input type="url" id="safv-url" placeholder="https://">
+  </label><br>
+  <label>
+    3–5 keywords (comma-separated)<br>
+    <input type="text" id="safv-keys" placeholder="runtime assurance, onboard ML, cislunar robotics">
+  </label><br>
+  <button type="submit">Generate email</button>
+  <p class="saf-form-note">This opens your mail client with a prefilled message to research@sylvesterkaczmarek.com.</p>
+</form>
+
+
 ## Accessibility
 Live captions will be enabled. If you need assistance, email research@sylvesterkaczmarek.com
 
