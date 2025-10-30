@@ -57,10 +57,12 @@ document.addEventListener('DOMContentLoaded', function () {
 </nav>
 
 <style>
-.topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.5rem 0;border-bottom:1px solid #eaeaea}
+.topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.45rem 0;border-bottom:1px solid #eaeaea}
+.topnav p{margin:0}
 .topnav a{margin:0 .35rem}
 @media (max-width:640px){.topnav a{display:inline-block;margin:.2rem .45rem}}
 </style>
+
 <!-- Option A black
 <style>
 .page-header{
