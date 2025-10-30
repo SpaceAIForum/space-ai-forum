@@ -58,10 +58,10 @@ document.addEventListener('DOMContentLoaded', function () {
 </style> -->
 
 <style>
-.topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.4rem 0;border-bottom:1px solid #eaeaea}
+.topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.5rem 0;border-bottom:1px solid #eaeaea}
 .topnav p{margin:0}
 .topnav a{margin:0 .35rem}
-.topnav+*{margin-top:.4rem}
+.main-content{padding-top:0}
 @media (max-width:640px){.topnav a{display:inline-block;margin:.2rem .45rem}}
 </style>
 
