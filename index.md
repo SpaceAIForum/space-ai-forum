@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function(){
   b.href = 'https://openreview.net/group?id=SAF%2F2026%2FConference';
   b.target = '_blank';
   b.rel = 'noopener';
+  b.style.setProperty('margin-top','25px','important'); /* +15 px (10 + 15) */
 });
 </script>
 
