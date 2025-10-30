@@ -207,15 +207,24 @@ Conflicts: Reviewers must recuse themselves from papers with conflicts such as s
 ## Contact
 Email research@sylvesterkaczmarek.com
 
-<footer class="saf-footer"><img class="saf-logo" src="{{ '/space_ai_forum_logo.jpg' | relative_url }}" alt="Space AI Forum logo"></footer>
+<footer class="saf-footer">
+  <img class="saf-logo" src="{{ '/space_ai_forum_logo.jpg' | relative_url }}" alt="Space AI Forum logo">
+</footer>
 <style>
-.saf-footer{text-align:center;margin:32px 0 12px}
-.saf-logo{height:72px;max-width:90vw;vertical-align:middle;filter:drop-shadow(0 1px 0 rgba(0,0,0,.12))}
-@media (min-width:900px){.saf-logo{height:88px}}
+.saf-footer{ text-align:center; margin:32px 0 36px; }
+.saf-logo{
+  display:block;
+  margin:0 auto;
+  height:72px;
+  max-width:90vw;
+  vertical-align:middle;
+  filter:drop-shadow(0 1px 0 rgba(0,0,0,.12));
+}
+@media (min-width:900px){ .saf-logo{ height:88px; } }
 </style>
 
 <hr class="saf-hr">
-<p class="saf-copy">Copyright © Space AI Forum 2025–{{ 'now' | date: '%Y' }}</p>
+<p class="saf-copy">Copyright © Space AI Forum {{ 'now' | date: '%Y' }}</p>
 
 <style>
 .saf-hr{border:0;border-top:1px solid #eaeaea;margin:24px 0 8px}
