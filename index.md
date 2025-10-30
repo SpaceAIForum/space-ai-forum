@@ -137,7 +137,7 @@ Space AI Forum gathers researchers and practitioners working on AI for satellite
 
 /* Phones: first page + small peek */
 @media (max-width:600px){
-  .saf-pdf{ height:52svh; height:52vh; min-height:360px; }
+  .saf-pdf{ height:46svh; height:46vh; min-height:360px; }
 }
 </style>
 
