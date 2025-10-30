@@ -68,6 +68,11 @@ JPEG at 75–85% quality. Target ≤ 600 KB.
 .main-content h3 { color:#3d85c6; } 
 </style>
 
+<style>
+.site-footer{padding:16px 0;border-top:1px solid #eaeaea;background:#fff}
+.site-footer .saf-copy{margin:0;text-align:center;font-size:14px;color:#6b7280}
+</style>
+
 ## Overview
 Space AI Forum gathers researchers and practitioners working on AI for satellites, planetary robotics, ground and flight segments, mission operations, and science data systems. The focus is practical exchange across algorithms, hardware, safety, and deployment.
 
