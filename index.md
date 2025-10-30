@@ -66,6 +66,27 @@ document.addEventListener('DOMContentLoaded', function () {
 [CFP](#call-for-papers) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Reviewers](#call-for-reviewers) • [Contact](#contact)
 </nav>
 
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  const nav=document.querySelector('.topnav');
+  if(nav){
+    const set=()=>document.documentElement.style.setProperty('--saf-nav-h',(nav.offsetHeight||64)+'px');
+    set(); window.addEventListener('resize',set);
+  }
+  const links=[...document.querySelectorAll('.topnav a')];
+  const map=new Map(links.map(a=>[(a.getAttribute('href')||'').split('#')[1],a]));
+  const io=new IntersectionObserver((es)=>{
+    let best=null;
+    es.forEach(e=>{if(e.isIntersecting&&(!best||e.intersectionRatio>best.intersectionRatio))best=e;});
+    if(best){
+      links.forEach(x=>x.classList.remove('active'));
+      const a=map.get(best.target.id); if(a) a.classList.add('active');
+    }
+  },{rootMargin:'-40% 0px -50% 0px',threshold:[0,0.25,0.5,0.75,1]});
+  map.forEach((a,id)=>{const el=document.getElementById(id); if(el) io.observe(el);});
+});
+</script>
+
 <!-- old
 <style>
 .topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.5rem 0;border-bottom:1px solid #eaeaea}
@@ -74,10 +95,13 @@ document.addEventListener('DOMContentLoaded', function () {
 </style> -->
 
 <style>
+:root{--saf-nav-h:64px}
 .topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.5rem 0;border-bottom:1px solid #eaeaea}
 .topnav p{margin:0}
 .topnav a{margin:0 .35rem}
+.topnav a.active{text-decoration:underline;text-underline-offset:.25rem}
 .main-content{padding-top:0}
+.main-content h2[id], .main-content h3[id], section[id]{scroll-margin-top:calc(var(--saf-nav-h) + 8px)}
 @media (max-width:640px){.topnav a{display:inline-block;margin:.2rem .45rem}}
 </style>
 
