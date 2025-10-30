@@ -131,7 +131,23 @@ JPEG at 75–85% quality. Target ≤ 600 KB.
 -->
 
 <style>
-.page-header .btn { margin-top:25px !important; }
+/* Make the two lines tighter and a bit smaller */
+.page-header .project-tagline{
+  color: rgba(255,255,255,.85);
+  font-weight: 400;
+  line-height: 1.35;
+  font-size: clamp(16px, 2vw, 18px);
+  margin: 0 0 4px;               /* small gap: tagline → date */
+}
+
+/* The date line (it has class "project-tagline saf-date") */
+.page-header .project-tagline.saf-date{
+  margin-top: 0;
+  margin-bottom: 25px;           /* space above the button */
+}
+
+/* Button sits right under the date line */
+.page-header .btn{ margin-top:0 !important; }
 </style>
 
 <style>
