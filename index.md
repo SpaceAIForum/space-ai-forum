@@ -7,31 +7,23 @@ layout: default
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  const header = document.querySelector('.page-header');
-  if (!header) return;
-
-  // Set a clear event line under the title
-  const tagline = header.querySelector('.project-tagline');
-  if (tagline) tagline.textContent = 'Online · GMT · Saturday 14 March 2026';
-
-  // Remove any existing header buttons
-  header.querySelectorAll('.btn').forEach(b => b.remove());
-
-  // Add three CTAs like the NeurIPS pages
-  const box = document.createElement('div');
-  box.className = 'saf-cta';
-  box.innerHTML = `
-    <a class="btn" href="https://openreview.net/group?id=SAF%2F2026%2FConference" target="_blank" rel="noopener">Call for Papers</a>
-    <a class="btn" href="#submission">Submit</a>
-    <a class="btn" href="#call-for-reviewers">Reviewers</a>
-  `;
-  header.appendChild(box);
+  // Try to set the built-in Cayman tagline
+  const tag = document.querySelector('.page-header .project-tagline');
+  const text = 'Online · GMT · Saturday 14 March 2026';
+  if (tag) {
+    tag.textContent = text;
+    return;
+  }
+  // Fallback: create a tagline element right under the title
+  const title = document.querySelector('.page-header .project-name');
+  if (title) {
+    const t = document.createElement('h2');
+    t.className = 'project-tagline';
+    t.textContent = text;
+    title.insertAdjacentElement('afterend', t);
+  }
 });
 </script>
-
-<style>
-.saf-cta{margin-top:1rem;display:inline-flex;gap:.6rem;flex-wrap:wrap}
-</style>
 
 <!-- old version
 <script>
