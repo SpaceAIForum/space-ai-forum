@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 </script>
 
-<!-- new 
 <style>
 /* Hide the GitHub Pages footer */
 .site-footer, .site-footer-credits, .site-footer-owner { display:none !important; }
@@ -27,8 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
   ['.site-footer', '.site-footer-owner', '.site-footer-credits']
     .forEach(sel => { const n = document.querySelector(sel); if (n) n.remove(); });
 });
-</script> -->
-<!-- end new -->
+</script> 
 
 <nav class="topnav" markdown="1">
 [CFP](#call-for-papers) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Reviewers](#call-for-reviewers) • [Contact](#contact)
@@ -156,27 +154,27 @@ We welcome short papers reporting research, negative results with lessons, syste
 - After acceptance, upload a camera-ready with author names. Authors are encouraged to post to arXiv and add the link on the OpenReview record
 
 ## Program
-Target size 6–10 accepted papers
-Invited talks 1–2 speakers, 20–30 minutes plus Q&A
-Format single track, live video with recordings published afterward
+Target size 6–10 accepted papers  
+Invited talks 1–2 speakers, 20–30 minutes plus Q&A  
+Format single track, live video with recordings published afterward  
 Detailed schedule will appear here after notifications
 
 ## Presentation
-Each accepted paper gets a 10-minute talk and a 5-minute Q&A
-Slides or short video due one week before the event
+Each accepted paper gets a 10-minute talk and a 5-minute Q&A  
+Slides or short video due one week before the event  
 Recordings published for authors who opt in
 
 ## Tentative schedule (GMT)
-15:00–15:10 Opening
-15:10–16:00 Paper session 1
-16:00–16:20 Invited talk
-16:20–16:30 Break
-16:30–17:20 Paper session 2
-17:20–17:45 Panel and Q&A
+15:00–15:10 Opening  
+15:10–16:00 Paper session 1  
+16:00–16:20 Invited talk  
+16:20–16:30 Break  
+16:30–17:20 Paper session 2  
+17:20–17:45 Panel and Q&A  
 17:45–18:00 Closing
 
 ## Committee
-Program chair Prof. Sylvester Kaczmarek
+Program chair Prof. Sylvester Kaczmarek  
 PC 6–10 reviewers drawn from academia and industry
 
 ## Registration and support
@@ -184,24 +182,24 @@ No required fee for the first edition
 Support the event via [Buy Me a Coffee](https://buymeacoffee.com/space.sylvester)
 
 ## Supporters
-Thanks to attendees who choose to support the event
+Thanks to attendees who choose to support the event  
 Add your name at checkout and we will list it here if you wish
 
 ## Proceedings
 Accepted PDFs remain public on OpenReview. A Zenodo community archive may be created for easy citation
 
 ## Call for reviewers
-We welcome reviewers with expertise in space systems, robotics, autonomy, ML, and safety
-How to apply: email research@sylvesterkaczmarek.com with your homepage or Google Scholar and 3–5 keywords
+We welcome reviewers with expertise in space systems, robotics, autonomy, ML, and safety  
+How to apply: email research@sylvesterkaczmarek.com with your homepage or Google Scholar and 3–5 keywords  
 Service window Feb–Mar 2026. Expected load 2–3 papers
 
 ## Accessibility
 Live captions will be enabled. If you need assistance, email research@sylvesterkaczmarek.com
 
 ## Policies
-Be respectful and constructive. Harassment or discrimination is not tolerated
-Privacy notice: We collect only what is needed to run the event. Contact us for removal requests
-Recording consent: Speakers and authors will be asked to opt in before recording
+Be respectful and constructive. Harassment or discrimination is not tolerated  
+Privacy notice: We collect only what is needed to run the event. Contact us for removal requests  
+Recording consent: Speakers and authors will be asked to opt in before recording  
 Conflicts: Reviewers must recuse themselves from papers with conflicts such as same institution, adviser or advisee, recent coauthor, or close collaborator
 
 ## Contact
