@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 </script>
 
+<!-- new -->
 <style>
 /* Hide the GitHub Pages footer */
 .site-footer, .site-footer-credits, .site-footer-owner { display:none !important; }
@@ -27,22 +28,17 @@ document.addEventListener('DOMContentLoaded', function () {
     .forEach(sel => { const n = document.querySelector(sel); if (n) n.remove(); });
 });
 </script>
+<!-- end new -->
 
 <nav class="topnav" markdown="1">
 [CFP](#call-for-papers) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Reviewers](#call-for-reviewers) • [Contact](#contact)
 </nav>
 
-<style> .topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.5rem 0;border-bottom:1px solid #eaeaea} .topnav a{margin:0 .35rem} @media (max-width:640px){.topnav a{display:inline-block;margin:.2rem .45rem}} </style>
-
-<!-- FIXED but not 
 <style>
-.topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.45rem 0;border-bottom:1px solid #eaeaea}
-.topnav p{margin:0}
+.topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.5rem 0;border-bottom:1px solid #eaeaea}
 .topnav a{margin:0 .35rem}
 @media (max-width:640px){.topnav a{display:inline-block;margin:.2rem .45rem}}
 </style>
--->
-
 <!-- Option A black
 <style>
 .page-header{
