@@ -220,10 +220,10 @@ We welcome short papers reporting research, negative results with lessons, syste
 - Concurrent submissions: allowed only if the other venue permits. Disclose in the submission
 - Artifacts (optional): during review, share anonymized code/data via private links; after decision, authors may release a public repo and add the link on OpenReview
 
-
+/* - All deadlines 23:59 AoE (UTC-12) */
 ## Important dates
 - Location Online
-- Time zone GMT /* - All deadlines 23:59 AoE (UTC-12) */
+- Time zone GMT
 - Submissions open 1 Nov 2025
 - Submission deadline 29 Jan 2026 23:59
 - Notifications 17 Feb 2026
