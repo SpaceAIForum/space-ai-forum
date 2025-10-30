@@ -35,44 +35,31 @@ document.addEventListener('DOMContentLoaded', function(){
   const header = document.querySelector('.page-header');
   if (!header) return;
 
+  // tagline comes from _config.yml
+
+  // 3rd line: make it share the tagline class so style matches exactly
   const tagline = header.querySelector('.project-tagline');
-
-  // ensure the 3rd line exists with correct text
-  let meta = header.querySelector('.page-meta');
-  if (!meta) {
-    meta = document.createElement('p');
-    meta.className = 'page-meta';
-    (tagline || header).insertAdjacentElement('afterend', meta);
+  let dateLine = header.querySelector('.saf-date');
+  if (!dateLine) {
+    dateLine = document.createElement('p');
+    dateLine.className = 'project-tagline saf-date';
+    (tagline || header).insertAdjacentElement('afterend', dateLine);
   }
-  meta.textContent = '14 March 2026 • Online';
+  dateLine.textContent = '14 March 2026 • Online';
 
-  // make the 3rd line match the tagline exactly
-  if (tagline) {
-    const cs = getComputedStyle(tagline);
-    Object.assign(meta.style, {
-      color: cs.color,
-      fontSize: cs.fontSize,
-      fontWeight: cs.fontWeight,
-      lineHeight: cs.lineHeight,
-      marginBottom: cs.marginBottom
-    });
-  }
-
-  // create or reuse the button, right under the date line
+  // button right under the date line
   let b = header.querySelector('.btn');
   if (!b) {
     b = document.createElement('a');
     b.className = 'btn';
-    meta.insertAdjacentElement('afterend', b);
+    dateLine.insertAdjacentElement('afterend', b);
   }
   b.textContent = 'Call for Papers';
   b.href = 'https://openreview.net/group?id=SAF%2F2026%2FConference';
   b.target = '_blank';
   b.rel = 'noopener';
-  b.style.setProperty('margin-top','25px','important');
 });
 </script>
-
 
 <style>
 /* Hide the GitHub Pages footer */
@@ -143,17 +130,8 @@ Minimum: 1920 × 720 px
 JPEG at 75–85% quality. Target ≤ 600 KB.
 -->
 
-<!-- Match tagline and date-line styles -->
 <style>
-.page-header .project-tagline,
-.page-header .page-meta{
-  color: rgba(255,255,255,.85) !important;
-  font-weight: 400;
-  line-height: 1.35;
-  font-size: clamp(16px, 2.4vw, 20px);
-  margin-bottom: 6px;
-}
-.page-header .btn{ margin-top: 10px !important; }
+.page-header .btn { margin-top:25px !important; }
 </style>
 
 <style>
