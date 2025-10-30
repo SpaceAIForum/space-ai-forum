@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 </script>
 
-<!-- new -->
+<!-- new 
 <style>
 /* Hide the GitHub Pages footer */
 .site-footer, .site-footer-credits, .site-footer-owner { display:none !important; }
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
   ['.site-footer', '.site-footer-owner', '.site-footer-credits']
     .forEach(sel => { const n = document.querySelector(sel); if (n) n.remove(); });
 });
-</script>
+</script> -->
 <!-- end new -->
 
 <nav class="topnav" markdown="1">
