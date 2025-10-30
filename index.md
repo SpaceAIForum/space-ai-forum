@@ -5,21 +5,23 @@ layout: default
 
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
+<!-- date line under the title -->
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  // Try to set the built-in Cayman tagline
+  // Choose ONE line:
+  // const TEXT = 'Online · GMT · Saturday 14 March 2026';
+  const TEXT = 'Online · Saturday 14 March 2026';
+
+  // If Cayman already has a tagline, fill it
   const tag = document.querySelector('.page-header .project-tagline');
-  const text = 'Online · GMT · Saturday 14 March 2026';
-  if (tag) {
-    tag.textContent = text;
-    return;
-  }
-  // Fallback: create a tagline element right under the title
+  if (tag) { tag.textContent = TEXT; return; }
+
+  // Otherwise create one just under the title
   const title = document.querySelector('.page-header .project-name');
   if (title) {
     const t = document.createElement('h2');
     t.className = 'project-tagline';
-    t.textContent = text;
+    t.textContent = TEXT;
     title.insertAdjacentElement('afterend', t);
   }
 });
