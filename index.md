@@ -6,6 +6,17 @@ layout: default
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
 <script>
+document.addEventListener('DOMContentLoaded', function () {
+  function setThemeColor(color) {
+    let m = document.querySelector('meta[name="theme-color"]');
+    if (!m) { m = document.createElement('meta'); m.name = 'theme-color'; document.head.appendChild(m); }
+    m.setAttribute('content', color);
+  }
+  setThemeColor('#000000');
+});
+</script>
+
+<script>
 document.addEventListener('DOMContentLoaded', function(){
   const b = document.querySelector('.page-header .btn');
   if (!b) return;
