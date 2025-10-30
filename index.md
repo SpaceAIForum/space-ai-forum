@@ -5,7 +5,7 @@ layout: default
 
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
-<!-- date line under the title -->
+<!-- date line under the title 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   // Choose ONE line:
@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 </script>
+-->
 
-<!-- old version
 <script>
 document.addEventListener('DOMContentLoaded', function(){
   const b = document.querySelector('.page-header .btn');
@@ -38,7 +38,6 @@ document.addEventListener('DOMContentLoaded', function(){
   b.rel = 'noopener';
 });
 </script>
--->
 
 <style>
 /* Hide the GitHub Pages footer */
