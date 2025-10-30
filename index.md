@@ -298,10 +298,13 @@ Email research@sylvesterkaczmarek.com
 .saf-logo{
   display:block;
   margin:0 auto;
-  height:72px;
+  height:72px;               /* keep your sizing */
   max-width:90vw;
   vertical-align:middle;
-  filter:drop-shadow(0 1px 0 rgba(0,0,0,.12));
+  background:#fff;           /* white tile */
+  border-radius:12px;        /* rounded corners */
+  padding:8px;               /* small inset to match the tile look */
+  box-shadow:0 2px 6px rgba(0,0,0,.2);
 }
 @media (min-width:900px){ .saf-logo{ height:88px; } }
 </style>
