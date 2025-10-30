@@ -1,5 +1,6 @@
 ---
 title: Space AI Forum 2026
+layout: default
 ---
 
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
@@ -66,11 +67,6 @@ JPEG at 75–85% quality. Target ≤ 600 KB.
 /* Section heading color */
 .main-content h2,
 .main-content h3 { color:#3d85c6; } 
-</style>
-
-<style>
-.site-footer{padding:16px 0;border-top:1px solid #eaeaea;background:#fff}
-.site-footer .saf-copy{margin:0;text-align:center;font-size:14px;color:#6b7280}
 </style>
 
 ## Overview
