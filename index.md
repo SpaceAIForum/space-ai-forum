@@ -137,7 +137,7 @@ JPEG at 75–85% quality. Target ≤ 600 KB.
   font-weight: 400;
   line-height: 1.35;
   font-size: clamp(16px, 2vw, 18px);
-  margin: 0 0 4px;               /* small gap: tagline → date */
+  margin: 12px 0 4px;               /* small gap: tagline → date */
 }
 
 /* The date line (it has class "project-tagline saf-date") */
