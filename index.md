@@ -5,7 +5,6 @@ layout: default
 
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
-<!-- no subheader
 <script>
 document.addEventListener('DOMContentLoaded', function(){
   const b = document.querySelector('.page-header .btn');
@@ -14,39 +13,6 @@ document.addEventListener('DOMContentLoaded', function(){
   b.href = 'https://openreview.net/group?id=SAF%2F2026%2FConference';
   b.target = '_blank';
   b.rel = 'noopener';
-});
-</script>
--->
-
-<!-- small date/location line under the tagline -->
-<style>
-/* tighten hero spacing */
-.page-header .project-tagline{margin-bottom:4px !important;}
-.page-header .page-meta{margin:0 0 10px 0; font-size:18px; color:#e5e7eb; opacity:.9}
-.page-header .btn{margin-top:8px !important;}
-</style>
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  const header = document.querySelector('.page-header');
-  const tagline = header?.querySelector('.project-tagline');
-
-  // date/location line under the tagline
-  if (tagline && !header.querySelector('.page-meta')) {
-    const meta = document.createElement('p');
-    meta.className = 'page-meta';
-    meta.textContent = '14 Mar 2026 · Online · GMT';
-    tagline.after(meta);
-  }
-
-  // ensure the button is correct and right below the date line
-  const btn = header?.querySelector('.btn');
-  if (btn) {
-    btn.textContent = 'Call for Papers';
-    btn.href = 'https://openreview.net/group?id=SAF%2F2026%2FConference';
-    btn.target = '_blank';
-    btn.rel = 'noopener';
-  }
 });
 </script>
 
