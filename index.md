@@ -121,19 +121,25 @@ Space AI Forum gathers researchers and practitioners working on AI for satellite
 </style> -->
 
 <style>
-/* Consistent height on desktop and mobile */
+/* Desktop and tablets */
 .saf-pdf{
   width:100%;
-  height:68svh;  /* stable on mobile */
+  height:68svh;  /* stable viewport on iOS/Android */
   height:68vh;   /* fallback */
   min-height:520px;
   border:1px solid #eaeaea;
 }
-@media (max-width:700px){
-  .saf-pdf{ height:60svh; height:60vh; min-height:420px; }
+
+/* Small laptops / big tablets */
+@media (max-width:900px){
+  .saf-pdf{ height:60svh; height:60vh; }
+}
+
+/* Phones: first page + small peek */
+@media (max-width:600px){
+  .saf-pdf{ height:52svh; height:52vh; min-height:360px; }
 }
 </style>
-
 
 <!-- Inline PDF viewer
 <div class="saf-pdf">
