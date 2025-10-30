@@ -213,3 +213,11 @@ Email research@sylvesterkaczmarek.com
 .saf-logo{height:72px;max-width:90vw;vertical-align:middle;filter:drop-shadow(0 1px 0 rgba(0,0,0,.12))}
 @media (min-width:900px){.saf-logo{height:88px}}
 </style>
+
+<hr class="saf-hr">
+<p class="saf-copy">Copyright © Space AI Forum 2025–{{ 'now' | date: '%Y' }}</p>
+
+<style>
+.saf-hr{border:0;border-top:1px solid #eaeaea;margin:24px 0 8px}
+.saf-copy{margin:0;text-align:center;color:#6b7280;font-size:14px}
+</style>
