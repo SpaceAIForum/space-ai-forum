@@ -6,6 +6,35 @@ layout: default
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
 <script>
+document.addEventListener('DOMContentLoaded', function () {
+  const header = document.querySelector('.page-header');
+  if (!header) return;
+
+  // Set a clear event line under the title
+  const tagline = header.querySelector('.project-tagline');
+  if (tagline) tagline.textContent = 'Online · GMT · Saturday 14 March 2026';
+
+  // Remove any existing header buttons
+  header.querySelectorAll('.btn').forEach(b => b.remove());
+
+  // Add three CTAs like the NeurIPS pages
+  const box = document.createElement('div');
+  box.className = 'saf-cta';
+  box.innerHTML = `
+    <a class="btn" href="https://openreview.net/group?id=SAF%2F2026%2FConference" target="_blank" rel="noopener">Call for Papers</a>
+    <a class="btn" href="#submission">Submit</a>
+    <a class="btn" href="#call-for-reviewers">Reviewers</a>
+  `;
+  header.appendChild(box);
+});
+</script>
+
+<style>
+.saf-cta{margin-top:1rem;display:inline-flex;gap:.6rem;flex-wrap:wrap}
+</style>
+
+<!-- old version
+<script>
 document.addEventListener('DOMContentLoaded', function(){
   const b = document.querySelector('.page-header .btn');
   if (!b) return;
@@ -15,8 +44,8 @@ document.addEventListener('DOMContentLoaded', function(){
   b.rel = 'noopener';
 });
 </script>
+-->
 
-<!-- new -->
 <style>
 /* Hide the GitHub Pages footer */
 .site-footer, .site-footer-credits, .site-footer-owner { display:none !important; }
@@ -28,7 +57,6 @@ document.addEventListener('DOMContentLoaded', function () {
     .forEach(sel => { const n = document.querySelector(sel); if (n) n.remove(); });
 });
 </script>
-<!-- end new -->
 
 <nav class="topnav" markdown="1">
 [CFP](#call-for-papers) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Reviewers](#call-for-reviewers) • [Contact](#contact)
