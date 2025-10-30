@@ -111,7 +111,7 @@ Space AI Forum gathers researchers and practitioners working on AI for satellite
 
 <iframe
   class="saf-pdf"
-  src="https://mozilla.github.io/pdf.js/web/viewer.html?file={{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | absolute_url | url_encode }}#pagemode=none&zoom=page-width">
+  src="https://mozilla.github.io/pdf.js/web/viewer.html?file={{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | absolute_url | url_encode }}#pagemode=none&zoom=page-fit">
 </iframe>
 
 <!-- old 
@@ -121,14 +121,18 @@ Space AI Forum gathers researchers and practitioners working on AI for satellite
 </style> -->
 
 <style>
-/* PDF viewer height tuning */
+/* Consistent height on desktop and mobile */
 .saf-pdf{
   width:100%;
-  height:68vh;   /* desktop: show page 1 + a little of page 2 */
-  height:68svh;  /* stable viewport on mobile browsers */
+  height:68svh;  /* stable on mobile */
+  height:68vh;   /* fallback */
   min-height:520px;
   border:1px solid #eaeaea;
 }
+@media (max-width:700px){
+  .saf-pdf{ height:60svh; height:60vh; min-height:420px; }
+}
+</style>
 
 /* tablets and small laptops */
 @media (max-width:900px){
