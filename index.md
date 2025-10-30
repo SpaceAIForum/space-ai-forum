@@ -62,6 +62,18 @@ document.addEventListener('DOMContentLoaded', function(){
 </script>
 
 <style>
+.page-header .project-tagline,
+.page-header .page-meta{
+  color: rgba(255,255,255,.85) !important;
+  font-weight: 400 !important;
+  line-height: 1.35 !important;
+  font-size: clamp(16px, 2.4vw, 20px) !important;
+  margin-bottom: 6px !important;
+}
+.page-header .btn{ margin-top: 25px !important; }
+</style>
+
+<style>
 /* Hide the GitHub Pages footer */
 .site-footer, .site-footer-credits, .site-footer-owner { display:none !important; }
 </style>
