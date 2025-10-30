@@ -1,6 +1,6 @@
 ---
 title: Space AI Forum 2026
-layouts: default
+layout: default
 ---
 
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
@@ -15,6 +15,20 @@ document.addEventListener('DOMContentLoaded', function(){
   b.rel = 'noopener';
 });
 </script>
+
+<!-- new -->
+<style>
+/* Hide the GitHub Pages footer */
+.site-footer, .site-footer-credits, .site-footer-owner { display:none !important; }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  ['.site-footer', '.site-footer-owner', '.site-footer-credits']
+    .forEach(sel => { const n = document.querySelector(sel); if (n) n.remove(); });
+});
+</script>
+<!-- end new -->
 
 <nav class="topnav" markdown="1">
 [CFP](#call-for-papers) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Reviewers](#call-for-reviewers) • [Contact](#contact)
@@ -67,10 +81,6 @@ JPEG at 75–85% quality. Target ≤ 600 KB.
 /* Section heading color */
 .main-content h2,
 .main-content h3 { color:#3d85c6; } 
-</style>
-
-<style>
-.site-footer, .site-footer-credits, .site-footer-owner { display:none !important; }
 </style>
 
 ## Overview
