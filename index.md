@@ -119,6 +119,19 @@ Minimum: 1920 × 720 px
 JPEG at 75–85% quality. Target ≤ 600 KB.
 -->
 
+<!-- Match tagline and date-line styles -->
+<style>
+.page-header .project-tagline,
+.page-header .page-meta{
+  color: rgba(255,255,255,.85) !important;
+  font-weight: 400;
+  line-height: 1.35;
+  font-size: clamp(16px, 2.4vw, 20px);
+  margin-bottom: 6px;
+}
+.page-header .btn{ margin-top: 10px !important; }
+</style>
+
 <style>
 /* Section heading color */
 .main-content h2,
