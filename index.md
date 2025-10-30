@@ -5,29 +5,6 @@ layout: default
 
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
-<!-- date line under the title 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  // Choose ONE line:
-  // const TEXT = 'Online · GMT · Saturday 14 March 2026';
-  const TEXT = 'Online · Saturday 14 March 2026';
-
-  // If Cayman already has a tagline, fill it
-  const tag = document.querySelector('.page-header .project-tagline');
-  if (tag) { tag.textContent = TEXT; return; }
-
-  // Otherwise create one just under the title
-  const title = document.querySelector('.page-header .project-name');
-  if (title) {
-    const t = document.createElement('h2');
-    t.className = 'project-tagline';
-    t.textContent = TEXT;
-    title.insertAdjacentElement('afterend', t);
-  }
-});
-</script>
--->
-
 <script>
 document.addEventListener('DOMContentLoaded', function(){
   const b = document.querySelector('.page-header .btn');
@@ -55,12 +32,16 @@ document.addEventListener('DOMContentLoaded', function () {
 [CFP](#call-for-papers) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Reviewers](#call-for-reviewers) • [Contact](#contact)
 </nav>
 
+<style> .topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.5rem 0;border-bottom:1px solid #eaeaea} .topnav a{margin:0 .35rem} @media (max-width:640px){.topnav a{display:inline-block;margin:.2rem .45rem}} </style>
+
+<!-- FIXED but not 
 <style>
 .topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.45rem 0;border-bottom:1px solid #eaeaea}
 .topnav p{margin:0}
 .topnav a{margin:0 .35rem}
 @media (max-width:640px){.topnav a{display:inline-block;margin:.2rem .45rem}}
 </style>
+-->
 
 <!-- Option A black
 <style>
