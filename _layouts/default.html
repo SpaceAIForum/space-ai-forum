@@ -2,28 +2,21 @@
 <html lang="{{ site.lang | default: 'en-US' }}">
   {% include head.html %}
   <body>
-    <!-- Header -->
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title }}</h1>
       {% if page.tagline or site.description %}
       <h2 class="project-tagline">{{ page.tagline | default: site.description }}</h2>
       {% endif %}
-      <a class="btn"
-         href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}"
-         target="_blank" rel="noopener">Call for Papers</a>
+      <a class="btn" href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}" target="_blank" rel="noopener">Call for Papers</a>
     </header>
 
-    <!-- Content -->
     <main id="content" class="main-content" role="main">
       {{ content }}
-
-      <!-- Footer -->
       <footer class="site-footer">
         <p class="saf-copy">Copyright © Space AI Forum {{ 'now' | date: '%Y' }}</p>
       </footer>
     </main>
 
-    <!-- Minimal footer styling -->
     <style>
       .site-footer{padding:16px 0;border-top:1px solid #eaeaea;background:#fff}
       .site-footer .saf-copy{margin:0;text-align:center;font-size:14px;color:#6b7280}
