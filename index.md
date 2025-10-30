@@ -223,7 +223,7 @@ We welcome short papers reporting research, negative results with lessons, syste
 
 ## Important dates
 - Location Online
-- All deadlines 23:59 AoE (UTC-12)
+- Time zone GMT/* - All deadlines 23:59 AoE (UTC-12) */
 - Submissions open 1 Nov 2025
 - Submission deadline 29 Jan 2026 23:59
 - Notifications 17 Feb 2026
