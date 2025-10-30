@@ -193,6 +193,8 @@ We welcome short papers reporting research, negative results with lessons, syste
 - Figures, tables, and links allowed
 - Supplementary: optional PDF or single ZIP, anonymized
 - Concurrent submissions: allowed only if the other venue permits. Disclose in the submission
+- Artifacts (optional): during review, share anonymized code/data via private links; after decision, authors may release a public repo and add the link on OpenReview
+
 
 ## Important dates
 - Location Online
@@ -256,7 +258,10 @@ Live captions will be enabled. If you need assistance, email research@sylvesterk
 Be respectful and constructive. Harassment or discrimination is not tolerated  
 Privacy notice: We collect only what is needed to run the event. Contact us for removal requests  
 Recording consent: Speakers and authors will be asked to opt in before recording  
-Conflicts: Reviewers must recuse themselves from papers with conflicts such as same institution, adviser or advisee, recent coauthor, or close collaborator
+Conflicts: Reviewers must recuse themselves from papers with conflicts such as same institution, adviser or advisee, recent coauthor, or close collaborator  
+Review visibility: Double-blind during review. Reviews are posted on OpenReview. After decisions, accepted papers appear with author names  
+Export control and dual-use: Do not submit ITAR/EAR-restricted, classified, or proprietary-restricted content. Authors must have the right to share any data or code included  
+Code of conduct reports: Email research@sylvesterkaczmarek.com with subject “Conduct”
 
 ## Contact
 Email research@sylvesterkaczmarek.com
