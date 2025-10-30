@@ -152,21 +152,21 @@ Format single track, live video with recordings published afterward
 Detailed schedule will appear here after notifications
 
 ## Presentation
-Each accepted paper gets a 10-minute talk and a 5-minute Q&A  
+Each accepted paper gets a 10-minute talk and a 5-minute Q&A
 Slides or short video due one week before the event
 Recordings published for authors who opt in
 
 ## Tentative schedule (GMT)
-15:00–15:10 Opening  
-15:10–16:00 Paper session 1  
-16:00–16:20 Invited talk  
-16:20–16:30 Break  
-16:30–17:20 Paper session 2  
-17:20–17:45 Panel and Q&A  
+15:00–15:10 Opening
+15:10–16:00 Paper session 1
+16:00–16:20 Invited talk
+16:20–16:30 Break
+16:30–17:20 Paper session 2
+17:20–17:45 Panel and Q&A
 17:45–18:00 Closing
 
 ## Committee
-Program chair Prof. Sylvester Kaczmarek  
+Program chair Prof. Sylvester Kaczmarek
 PC 6–10 reviewers drawn from academia and industry
 
 ## Registration and support
@@ -174,29 +174,28 @@ No required fee for the first edition
 Support the event via [Buy Me a Coffee](https://buymeacoffee.com/space.sylvester)
 
 ## Supporters
-Thanks to attendees who choose to support the event  
+Thanks to attendees who choose to support the event
 Add your name at checkout and we will list it here if you wish
 
 ## Proceedings
 Accepted PDFs remain public on OpenReview. A Zenodo community archive may be created for easy citation
 
 ## Call for reviewers
-We welcome reviewers with expertise in space systems, robotics, autonomy, ML, and safety  
-How to apply: email research@sylvesterkaczmarek.com with your homepage or Google Scholar and 3–5 keywords  
+We welcome reviewers with expertise in space systems, robotics, autonomy, ML, and safety
+How to apply: email research@sylvesterkaczmarek.com with your homepage or Google Scholar and 3–5 keywords
 Service window Feb–Mar 2026. Expected load 2–3 papers
 
 ## Accessibility
 Live captions will be enabled. If you need assistance, email research@sylvesterkaczmarek.com
 
 ## Policies
-Be respectful and constructive. Harassment or discrimination is not tolerated  
-Privacy notice: We collect only what is needed to run the event. Contact us for removal requests  
-Recording consent: Speakers and authors will be asked to opt in before recording  
+Be respectful and constructive. Harassment or discrimination is not tolerated
+Privacy notice: We collect only what is needed to run the event. Contact us for removal requests
+Recording consent: Speakers and authors will be asked to opt in before recording
 Conflicts: Reviewers must recuse themselves from papers with conflicts such as same institution, adviser or advisee, recent coauthor, or close collaborator
 
 ## Contact
-Email research@sylvesterkaczmarek.com  
-Website https://spaceaiforum.github.io/space-ai-forum
+Email research@sylvesterkaczmarek.com
 
 <footer class="saf-footer"><img class="saf-logo" src="{{ '/space_ai_forum_logo.jpg' | relative_url }}" alt="Space AI Forum logo"></footer>
 <style>
