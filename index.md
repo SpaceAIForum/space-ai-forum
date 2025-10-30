@@ -198,7 +198,7 @@ We welcome short papers reporting research, negative results with lessons, syste
 
 ## Important dates
 - Location Online
-- Time zone GMT
+- All deadlines 23:59 AoE (UTC-12)
 - Submissions open 1 Nov 2025
 - Submission deadline 29 Jan 2026 23:59
 - Notifications 17 Feb 2026
@@ -251,11 +251,11 @@ Accepted PDFs remain public on OpenReview. A Zenodo community archive may be cre
 
 ## Call for reviewers
 We welcome reviewers with expertise in space systems, robotics, autonomy, ML, and safety  
-How to apply: email research@sylvesterkaczmarek.com with your homepage or Google Scholar and 3–5 keywords  
+How to apply: email spaceai@sylvesterkaczmarek.com with your homepage or Google Scholar and 3–5 keywords  
 Service window Feb–Mar 2026. Expected load 2–3 papers
 
 ## Accessibility
-Live captions will be enabled. If you need assistance, email research@sylvesterkaczmarek.com
+Live captions will be enabled. If you need assistance, email spaceai@sylvesterkaczmarek.com
 
 ## Policies
 Be respectful and constructive. Harassment or discrimination is not tolerated  
@@ -264,10 +264,10 @@ Recording consent: Speakers and authors will be asked to opt in before recording
 Conflicts: Reviewers must recuse themselves from papers with conflicts such as same institution, adviser or advisee, recent coauthor, or close collaborator  
 Review visibility: Double-blind during review. Reviews are posted on OpenReview. After decisions, accepted papers appear with author names  
 Export control and dual-use: Do not submit ITAR/EAR-restricted, classified, or proprietary-restricted content. Authors must have the right to share any data or code included  
-Code of conduct reports: Email research@sylvesterkaczmarek.com with subject “Conduct”
+Code of conduct reports: Email spaceai@sylvesterkaczmarek.com with subject “Conduct”
 
 ## Contact
-Email research@sylvesterkaczmarek.com
+Email spaceai@sylvesterkaczmarek.com
 
 <footer class="saf-footer">
   <img class="saf-logo" src="{{ '/space_ai_forum_logo.jpg' | relative_url }}" alt="Space AI Forum logo">
