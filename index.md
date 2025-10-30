@@ -5,6 +5,7 @@ layout: default
 
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
+<!-- no subheader
 <script>
 document.addEventListener('DOMContentLoaded', function(){
   const b = document.querySelector('.page-header .btn');
@@ -13,6 +14,23 @@ document.addEventListener('DOMContentLoaded', function(){
   b.href = 'https://openreview.net/group?id=SAF%2F2026%2FConference';
   b.target = '_blank';
   b.rel = 'noopener';
+});
+</script>
+-->
+
+<!-- small date/location line under the tagline -->
+<style>
+.page-header .page-meta{margin:.35rem 0 0;font-size:18px;opacity:.85;color:#e5e7eb}
+@media (max-width:640px){.page-header .page-meta{font-size:16px}}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const tagline = document.querySelector('.page-header .project-tagline');
+  if (!tagline || document.querySelector('.page-header .page-meta')) return;
+  const meta = document.createElement('p');
+  meta.className = 'page-meta';
+  meta.textContent = '14 Mar 2026 · Online · GMT';
+  tagline.insertAdjacentElement('afterend', meta);
 });
 </script>
 
