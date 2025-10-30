@@ -111,9 +111,40 @@ JPEG at 75–85% quality. Target ≤ 600 KB.
 </style>
 
 <style>
+.page-header{ position:relative; }
+.page-header::after{
+  content:"";
+  position:absolute; top:16px; left:16px;
+  width:84px; height:84px;
+  background:#fff url("{{ '/space_ai_forum_logo.jpg' | relative_url }}") center/78% no-repeat;
+  border-radius:12px;
+  box-shadow:0 2px 6px rgba(0,0,0,.2);
+  opacity:.98;
+}
+@media (max-width:700px){
+  .page-header::after{ width:60px; height:60px; top:12px; left:12px; }
+}
+</style>
+
+<style>
 /* Section heading color */
 .main-content h2,
 .main-content h3 { color:#3d85c6; } 
+</style>
+
+<style>
+h2#overview{ position:relative; padding-left:56px; }
+h2#overview::before{
+  content:"";
+  position:absolute; left:0; top:4px;
+  width:40px; height:40px;
+  background:#fff url("{{ '/space_ai_forum_logo.jpg' | relative_url }}") center/80% no-repeat;
+  border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,.15);
+}
+@media (max-width:640px){
+  h2#overview{ padding-left:48px; }
+  h2#overview::before{ width:34px; height:34px; top:6px; }
+}
 </style>
 
 ## Overview
