@@ -117,7 +117,7 @@ JPEG at 75–85% quality. Target ≤ 600 KB.
 </style>
 
 <style>
-/* Big rounded logo to the left of the first Overview paragraph */
+/* Big rounded logo to the left of the first Overview paragraph (lowered a bit) */
 h2#overview + p{
   position: relative;
   padding-left: 96px;   /* space for the tile */
@@ -125,7 +125,8 @@ h2#overview + p{
 }
 h2#overview + p::before{
   content:"";
-  position:absolute; left:0; top:0;
+  position:absolute; left:0;
+  top:.34em;                 /* lowered to align with first-line caps */
   width:76px; height:76px;
   background:#fff url("{{ '/space_ai_forum_logo.jpg' | relative_url }}") center/80% no-repeat;
   border-radius:12px;
@@ -133,7 +134,10 @@ h2#overview + p::before{
 }
 @media (max-width:640px){
   h2#overview + p{ padding-left:82px; min-height:64px; }
-  h2#overview + p::before{ width:64px; height:64px; }
+  h2#overview + p::before{
+    width:64px; height:64px;
+    top:.28em;              /* slightly less offset on phones */
+  }
 }
 </style>
 
