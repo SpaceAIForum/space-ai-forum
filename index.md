@@ -35,43 +35,44 @@ document.addEventListener('DOMContentLoaded', function(){
   const header = document.querySelector('.page-header');
   if (!header) return;
 
-  // ensure the 3rd line exists: "14 March 2026 • Online"
+  const tagline = header.querySelector('.project-tagline');
+
+  // ensure the 3rd line exists with correct text
   let meta = header.querySelector('.page-meta');
   if (!meta) {
     meta = document.createElement('p');
     meta.className = 'page-meta';
-    meta.textContent = '14 March 2026 • Online';
-    const tag = header.querySelector('.project-tagline') || header.querySelector('.project-name');
-    (tag || header).insertAdjacentElement('afterend', meta);
+    (tagline || header).insertAdjacentElement('afterend', meta);
+  }
+  meta.textContent = '14 March 2026 • Online';
+
+  // make the 3rd line match the tagline exactly
+  if (tagline) {
+    const cs = getComputedStyle(tagline);
+    Object.assign(meta.style, {
+      color: cs.color,
+      fontSize: cs.fontSize,
+      fontWeight: cs.fontWeight,
+      lineHeight: cs.lineHeight,
+      marginBottom: cs.marginBottom
+    });
   }
 
-  // create or reuse the button, placed after the meta line
+  // create or reuse the button, right under the date line
   let b = header.querySelector('.btn');
   if (!b) {
     b = document.createElement('a');
     b.className = 'btn';
     meta.insertAdjacentElement('afterend', b);
   }
-
   b.textContent = 'Call for Papers';
   b.href = 'https://openreview.net/group?id=SAF%2F2026%2FConference';
   b.target = '_blank';
   b.rel = 'noopener';
-  b.style.setProperty('margin-top','25px','important'); // same visual spacing as before
+  b.style.setProperty('margin-top','25px','important');
 });
 </script>
 
-<style>
-.page-header .project-tagline,
-.page-header .page-meta{
-  color: rgba(255,255,255,.85) !important;
-  font-weight: 400 !important;
-  line-height: 1.35 !important;
-  font-size: clamp(16px, 2.4vw, 20px) !important;
-  margin-bottom: 6px !important;
-}
-.page-header .btn{ margin-top: 25px !important; }
-</style>
 
 <style>
 /* Hide the GitHub Pages footer */
