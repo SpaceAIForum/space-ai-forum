@@ -6,7 +6,7 @@ This repository hosts the official website and author materials for the Space AI
 
 ### Key Resources
 
-*   **Official Website:** https://spaceaiforum.github.io/space-ai-forum
+*   **Official Website:** https://spaceaiforum.github.io/
 *   **Call for Papers (PDF):** [Space_AI_Forum_2026_CFP.pdf](Space_AI_Forum_2026_CFP.pdf)
 *   **Author Kit (ZIP):** [saf2025_author_kit.zip](saf2025_author_kit.zip)
 
