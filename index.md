@@ -1,6 +1,6 @@
 ---
 title: Space AI Forum 2026
-layout: default
+layouts: default
 ---
 
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
