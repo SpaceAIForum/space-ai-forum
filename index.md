@@ -35,20 +35,29 @@ document.addEventListener('DOMContentLoaded', function(){
   const header = document.querySelector('.page-header');
   if (!header) return;
 
+  // ensure the 3rd line exists: "14 March 2026 • Online"
+  let meta = header.querySelector('.page-meta');
+  if (!meta) {
+    meta = document.createElement('p');
+    meta.className = 'page-meta';
+    meta.textContent = '14 March 2026 • Online';
+    const tag = header.querySelector('.project-tagline') || header.querySelector('.project-name');
+    (tag || header).insertAdjacentElement('afterend', meta);
+  }
+
+  // create or reuse the button, placed after the meta line
   let b = header.querySelector('.btn');
   if (!b) {
     b = document.createElement('a');
     b.className = 'btn';
-    const tag = header.querySelector('.project-tagline, .page-meta');
-    if (tag) tag.insertAdjacentElement('afterend', b);
-    else header.appendChild(b);
+    meta.insertAdjacentElement('afterend', b);
   }
 
   b.textContent = 'Call for Papers';
   b.href = 'https://openreview.net/group?id=SAF%2F2026%2FConference';
   b.target = '_blank';
   b.rel = 'noopener';
-  b.style.setProperty('margin-top','25px','important');
+  b.style.setProperty('margin-top','25px','important'); // same visual spacing as before
 });
 </script>
 
